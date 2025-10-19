@@ -1,0 +1,23 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "Mini Sistema de Biblioteca",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc main.ts",
+    "start": "node main.ts",
+    "dev": "ts-node main.ts",
+    "try": "npm run build && npm run start"
+  },
+  "author": "ViniciusHenriqueDosSantos <viniciushenriquesantos2005@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "prisma": "^5.22.0"
+  }
+}
